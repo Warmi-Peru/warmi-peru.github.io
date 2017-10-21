@@ -231,9 +231,10 @@ header .device-container .screen img {
     max-width: none;
     margin: 0;
     position: absolute;
-    top: 50%;
+    top: 57%;
     transform: translateY(-50%);
   }
+
   header .header-content .header-content-inner h1 {
     font-size: 35px;
   }
@@ -257,8 +258,9 @@ section h2 {
 section.we{
   padding: 39px 0 0 0;
 }
-section.warmi{
-  padding: 100px 0 30px 0;
+
+section.warmi .container {
+    padding: 22px 0;
 }
 section.how-works .badges .badge-link {
   display: block;
@@ -569,7 +571,7 @@ i.fa.fa-sign-in{
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position-y: -187%;
+    background-position-y: -140%;
 }
 #contact .light-blue {
     color: #38c2ce;
@@ -605,6 +607,7 @@ li.step {
       background-position-x: 10%;
   }
 
+
 }  
 @media (max-width:1025px){
 
@@ -613,3 +616,11 @@ li.step {
   }
 
 }  
+
+.girl_liking, .girl_positive {
+    width: 100%;
+    border-bottom: 8px solid #ad49c0;
+}
+.benefits{
+      font-size: 21px;
+}
